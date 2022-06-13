@@ -9,6 +9,11 @@
     font-size: 12px; 
 }
 
+#primera lista {
+    margin: 10px;
+    padding: 50px;
+}
+
 #visita {
     font-size: 24px;
 }
