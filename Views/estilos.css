@@ -38,8 +38,11 @@
     text-align: center;
 }
 
-.burger menu {
-    align-items: center;
+.fa-bars{
+    color: blue;    
+    margin:auto;
+    text-align: center;
+    
 }
 
 #tarjeta {
@@ -50,9 +53,14 @@
 #pago{
     text-align: center;
     margin-bottom: 10px;
+    margin-left: 10px;
 }
 
 #seguridad{
     text-align: center;
+    margin-bottom: 10px;
+}
+
+.nav1 {
     margin-bottom: 10px;
 }
