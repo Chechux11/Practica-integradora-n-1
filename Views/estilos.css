@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 #encabezado {
@@ -12,6 +13,10 @@
 #primera lista {
     margin: 10px;
     padding: 50px;
+}
+
+.menu{
+    color: blue;
 }
 
 #visita {
@@ -38,13 +43,6 @@
     text-align: center;
 }
 
-.fa-bars{
-    color: blue;    
-    margin:auto;
-    text-align: center;
-    
-}
-
 #tarjeta {
     text-align: center;
     margin-bottom: 10px;
@@ -63,4 +61,8 @@
 
 .nav1 {
     margin-bottom: 10px;
+}
+
+.credit-card{
+    text-align: center;
 }
