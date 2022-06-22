@@ -38,27 +38,25 @@
 #descripcion {
     font-size: 16px;
 }
-
-#foot {
+.footer {
     text-align: center;
 }
 
 #tarjeta {
     text-align: center;
     margin-bottom: 10px;
+    size: 2em;
 }
 
 #pago{
     text-align: center;
     margin-bottom: 10px;
-    margin-left: 10px;
+    size: 2em;
 }
 
 #seguridad{
     text-align: center;
     margin-bottom: 10px;
+    size: 2em;
 }
 
-.credit-card{
-    text-align: center;
-}
