@@ -4,83 +4,99 @@
     margin: 0%;
 }
 
-html {
-    font-size: 62,5%;
-
-}
-
-.header{
-    background-color: yellow;
+body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 12px; 
 }
+
+.header {
+    background-color: yellow;
+}
+
+.top-header{
+    font-size: 12px; 
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+}
+
+.menu{
+    background-color: blue;
+    text-align: center;
+    color: white;
+    display: block;
+    max-width: 50px;
+    padding: 15px 0;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 18px;
+    margin:auto
+}
+
+.main-navbar ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-navbar a {
+    text-decoration: none;
+    padding: 5px 0;
+    display: inline-block;
+    font-size: 17px;
+    color: #666      
+}  
+
 
 .producto {
     padding: 10px;
 }
 
-.fa-solid {
-        margin-left: 0%;
-}
-
-.menu{
-    color: blue;
-    text-align: center;
-}
-
-#visita {
+.visita {
     font-size: 24px;
 }
 
-#ofertas {
+.ofertas {
     font-size: 24px;
 }
 
-#precio {
+.precio {
     font-size: 18px;
 }
 
-#descuentos {
+.descuentos {
     font-size: 16px;
 }
 
-#descripcion {
+.descripcion {
     font-size: 16px;
 }
 .footer {
     text-align: center;
 }
 
-#tarjeta {
+.tarjeta {
     text-align: center;
     margin-bottom: 10px;
     size: 2em;
 }
 
-#pago{
+.pago{
     text-align: center;
     margin-bottom: 10px;
     size: 2em;
 }
 
-#seguridad{
+.seguridad{
     text-align: center;
     margin-bottom: 10px;
     size: 2em;
 }
 
-main {
-    width: 90%;
-}
 
-.top-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
-.logo{
-    width: 100px;
-    height: 100px;
-
-}
