@@ -62,22 +62,7 @@ main{
 .producto {
     margin: 10px;
     padding: 15px;
-}
-
-.cafetera {
-    border-top: solid 1px #ebebeb;
-}
-
-.macbook{
-    border-top: solid 1px #ebebeb;
-}
-
-.celular{
-    border-top: solid 1px #ebebeb;
-}
-
-.tv{
-    border-top: solid 1px #ebebeb;
+    border-top: solid 1px #ebebeb
 }
 
 .visita {
