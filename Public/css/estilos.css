@@ -59,10 +59,15 @@ main{
     justify-content: center;
 }
 
+section {
+    background-color: #666;
+}
+
 .producto {
     margin: 10px;
     padding: 15px;
     border-top: solid 1px #ebebeb
+    
 }
 
 .visita {
